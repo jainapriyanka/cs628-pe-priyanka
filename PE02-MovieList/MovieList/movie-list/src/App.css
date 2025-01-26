@@ -1,0 +1,38 @@
+/* Reset styles */
+* {
+  margin: 1;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Center the content on the page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add padding to avoid clipping on smaller screens */
+}
+
+.App {
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Constrain the width */
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  word-wrap: break-word; /* Ensure the title wraps if it's too long */
+}
