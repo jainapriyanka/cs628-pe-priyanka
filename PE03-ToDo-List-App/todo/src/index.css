@@ -1,95 +1,98 @@
+/* Styling the app in the middle of the screen */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #e3f2fd;
-  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  font-family: "Arial", sans-serif;
   margin: 0;
 }
 
+/* Main container */
 .container {
-  background: #ffffff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-  width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
   text-align: center;
 }
 
+/* Styling heading */
 h2 {
-  font-size: 26px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: bold;
   color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
+/* Input container for spacing */
 .input-container {
   display: flex;
-  gap: 8px;
-  margin-bottom: 20px;
+  gap: 10px;
+  margin-bottom: 15px;
 }
 
+/* Styling input field */
 input {
   flex: 1;
-  padding: 12px;
-  border: 2px solid #90caf9;
-  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   outline: none;
-  transition: 0.3s;
+  font-size: 14px;
 }
 
-input:focus {
-  border-color: #1e88e5;
-}
 
+/* Styling add task button */
 .add-btn {
-  background-color: #1e88e5;
+  background-color: #007bff;
   color: white;
   border: none;
-  padding: 12px 16px;
-  border-radius: 8px;
+  padding: 10px 15px;
+  border-radius: 5px;
   cursor: pointer;
-  font-weight: bold;
-  transition: 0.3s;
+  font-size: 14px;
 }
 
 .add-btn:hover {
-  background-color: #1565c0;
+  background-color: #0056b3;
 }
 
+/* Task List */
 .task-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
+/* Styling task item */
 .task-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #f1f8e9;
-  padding: 12px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  border-left: 5px solid #66bb6a;
-  transition: 0.3s;
+  background: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
 }
 
 .task-item:hover {
-  background: #dcedc8;
+  background: #eef6ff;
 }
 
+/* Styling delete Button */
 .delete-btn {
-  background-color: #e53935;
+  background-color: #dc3545;
   color: white;
   border: none;
-  padding: 8px 12px;
-  border-radius: 6px;
+  padding: 6px 12px;
+  border-radius: 5px;
   cursor: pointer;
-  font-weight: bold;
-  transition: 0.3s;
+  font-size: 14px;
 }
 
 .delete-btn:hover {
-  background-color: #c62828;
+  background-color: #b52b3a;
 }
