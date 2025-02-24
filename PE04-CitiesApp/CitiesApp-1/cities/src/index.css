@@ -1,4 +1,4 @@
-/* General Styles */
+/* body style */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -39,8 +39,8 @@ body {
 /* Main Content */
 .main-content {
   display: flex;
-  flex-direction: row;  /* Updated to place elements side by side */
-  align-items: flex-start;  /* Align items at the top */
+  flex-direction: row;  
+  align-items: flex-start;  
   margin-top: 20px;
   width: 80%;
   margin: 20px auto;
@@ -92,11 +92,11 @@ body {
 /* Add City Container */
 .add-city-container {
   background: white;
-  width: 40%; /* Adjusted width to fit beside city list */
+  width: 40%; 
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  margin-left: 20px; /* Creates spacing from the city list */
+  margin-left: 20px; 
 }
 
 /* Add City Title */
@@ -121,7 +121,7 @@ form {
 .input-group label {
   font-size: 18px;
   font-weight: bold;
-  width: 120px; /* Ensures labels are aligned */
+  width: 120px; 
 }
 
 .input-group input {
